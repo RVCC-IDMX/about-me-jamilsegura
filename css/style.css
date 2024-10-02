@@ -1,0 +1,44 @@
+body {
+    font-family: Roboto;
+    background-color: #dbda7a;
+    color: #DEADAC;
+}
+h1 {
+    font-family: Roboto;
+    font-size:30pt;
+}
+header {
+    text-align: center;
+}
+#hero ,footer{
+    text-align: center;
+    color: #FFFFFF;
+    background-color:#DEADAC ;
+    padding: 10px;
+    border: 2px solid #19dca6;
+    border-radius: 20px;
+}
+#hero img {
+    width: 300px;
+    max-width: 100%;
+}
+#bio {
+    text-align: center;
+}
+
+/*my passion*/
+#mypassion ul li:nth-child(){
+    color: black;
+}
+
+/*gallery*/
+#gallery {
+    border: 2px solid #DEADAC;
+    border-radius: 20px;
+}
+#gallery img {
+    max-width: 100%;
+}
+#gallery figure {
+    text-align: center;
+}
