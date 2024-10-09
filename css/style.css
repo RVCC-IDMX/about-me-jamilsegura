@@ -42,3 +42,27 @@ header {
 #gallery figure {
     text-align: center;
 }
+
+/*article*/
+
+#lit h2 {
+    text-align: center;
+}
+#lit div {
+    padding: 2em;
+    padding-top: 0px;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lit p::first-letter {
+    color: ;
+    font-size: 3em;
+    float: left;
+    padding: .25em;
+    border: 4px double;
+    margin-right: .25em;
+    text-shadow: 1px 1px 1px rgba(0,0,0, .5);
+    box-shadow:  1px 1px 1px rgba(0,0,0, .5);
+}
