@@ -1,7 +1,7 @@
 body {
     font-family: Roboto;
-    background-color: #dbda7a;
-    color: #DEADAC;
+    background-color: #F0857E;
+    color: #655EF0;
 }
 h1 {
     font-family: Roboto;
@@ -13,9 +13,9 @@ header {
 #hero ,footer{
     text-align: center;
     color: #FFFFFF;
-    background-color:#DEADAC ;
+    background-color:#F0857E ;
     padding: 10px;
-    border: 2px solid #19dca6;
+    border: 2px solid #ed4032;
     border-radius: 20px;
 }
 #hero img {
@@ -33,7 +33,7 @@ header {
 
 /*gallery*/
 #gallery {
-    border: 2px solid #DEADAC;
+    border: 2px solid #ed4032;
     border-radius: 20px;
 }
 #gallery img {
