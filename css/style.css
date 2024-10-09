@@ -37,7 +37,7 @@ header {
     border-radius: 20px;
 }
 #gallery img {
-    max-width: 100%;
+    max-width: 75%;
 }
 #gallery figure {
     text-align: center;
