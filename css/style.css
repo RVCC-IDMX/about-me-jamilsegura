@@ -96,3 +96,21 @@ header {
     width:100%;
     height:100%;
 }
+
+/*breakpoint*/
+
+@media screen and (min-width:60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+    
+}
