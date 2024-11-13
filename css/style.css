@@ -99,7 +99,7 @@ header {
 
 /*breakpoint*/
 
-@media screen and (min-width:60em) {
+@media screen and (min-width:600px) {
     figure {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -126,7 +126,7 @@ header {
 
 /* large screen size */
 
-@media screen and (min-width: 100rem) {
+@media screen and (min-width: 1000px) {
     #gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
