@@ -159,7 +159,7 @@ header {
 }
 
 fieldset {
-    border: 2px solid #ed4032;
+    border: 2px solid #db7f34;
     margin-top:1em;
     margin-bottom:1em;
 }
@@ -180,7 +180,7 @@ fieldset {
 #contact button {
     background-color: #19dca6;
     color: #509adb;
-    border: 1px solid #deadac;
+    border: 1px solid #db7f34;
     max-width: 400px;
     width: 50%;
     justify-self: center;
