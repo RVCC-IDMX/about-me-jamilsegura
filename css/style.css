@@ -178,9 +178,9 @@ fieldset {
 }
 
 #contact button {
-    background-color: #F0857E;
-    color: white;
-    border: 1px solid #655EF0;
+    background-color: #19dca6;
+    color: #509adb;
+    border: 1px solid #deadac;
     max-width: 400px;
     width: 50%;
     justify-self: center;
