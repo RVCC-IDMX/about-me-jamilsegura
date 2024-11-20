@@ -1,7 +1,7 @@
 body {
     font-family: Roboto;
-    background-color: #F0857E;
-    color: #655EF0;
+    background-color: #dbda7a;
+    color: #509adb;
 }
 h1 {
     font-family: Roboto;
@@ -13,9 +13,9 @@ header {
 #hero ,footer{
     text-align: center;
     color: #FFFFFF;
-    background-color:#F0857E ;
+    background-color:#dbda7a ;
     padding: 10px;
-    border: 2px solid #ed4032;
+    border: 2px solid #deadac;
     border-radius: 20px;
 }
 #hero img {
@@ -33,7 +33,7 @@ header {
 
 /*gallery*/
 #gallery {
-    border: 2px solid #ed4032;
+    border: 2px solid #deadac;
     border-radius: 20px;
 }
 #gallery img {
@@ -58,7 +58,7 @@ header {
 }
 
 #lit p::first-letter {
-    color: red;
+    color: #509adb;
     font-size: 3em;
     float: left;
     padding: .25em;
