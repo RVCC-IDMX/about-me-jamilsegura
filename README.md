@@ -7,6 +7,8 @@ I have learned a lot in this class. For me, this class introduced me to a whole 
 
 ![Screenshot of color swatches](img/swatch.png)
 
+My bio is talking about where I am from and my goal in RVCC. I talk about my two passions, photography and cooking.
+
 
 Copyright 2024 Jamil Segura
 Jamil Segura!
