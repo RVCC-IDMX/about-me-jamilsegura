@@ -171,6 +171,9 @@ body {
     display:none;
 }
 
+#nav__checkbox{
+    display: none;
+}
 #nav__checkbox:checked ~ .navbar-links ul.nav__menu li{
     display: block;
 }
