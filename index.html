@@ -6,6 +6,7 @@
     <title>About Me</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="icon" type="image/png" href="img/JS Logo.png">
 </head>
 <body>
     
@@ -18,11 +19,20 @@
     <section>
    <nav class="navbar">
     <div class="logo">
-        <img src="img/logo-96X96.svg" alt="blue origami bird">
+        <img src="img/JS Logo.png" alt="initial logo">
      <h1>Web Dev 1</h1>
     </div>
+    <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+    <label for="nav__checkbox" class="nav__toggle">
+        <svg class="menu" viewBox="0 0 448 512" width="100" title="bars">
+            <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+        </svg>
+        <svg class="close" viewBox="0 0 384 512" width="100" title="times">
+            <path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+        </svg>
+    </label>
     <div class="navbar-links">
-        <ul>
+        <ul class="nav__menu">
             <li> <a href="#bio">Bio</a></li>
             <li> <a href="#gallery">Gallery</a></li>
             <li> <a href="lit">Blog</a></li>
@@ -38,7 +48,7 @@
 
 <section id="hero">
     <!-- the main contains important page content-->
-     <img src="img/avataaars.png" alt="an avatar with glasses">
+     <img src="img/jamil.jpg" alt="a photo of jamil">
 
 <div>
     <p>Jamil Segura</p>
@@ -48,7 +58,7 @@
  <section>
 
     <!-- Biological Information-->
-     <p> I want to cook for family and friends</p>
+     <p> Hi, my name is Jamil Segura and welcome to my website. I am Afro-Latino as my parents are from Dominican Republic. I am enrolled at Raritan Valley Community College for Information Techonology and Support with a certificate in computer support. I love to be in the kitchen, it is one of my main passions. I love to be able to touch and smell every ingredient, cut it down to the size I need it to be, and make thos savoring meals ever. I also love to do photography. I started my photography journey in Italy.</p>
      <ul>
         <li>Recipes to cook</li>
         <li>Growing herbs</li>
@@ -99,53 +109,36 @@
 
  <article id="lit">
 
-    <h2>Exerpt from Dr Jekyll</h2>
+    <h2>Image Hover Effect</h2>
 
     <div>
 
-        <p>Into the details of the infamy at which I thus connived (for even now I can scarce grant that I committed it) I have
-            no design of entering; I mean but to point out the warnings and the successive steps with which my chastisement
-            approached. I met with one accident which, as it brought on no consequence, I shall no more than mention. An act of
-            cruelty to a child aroused against me the anger of a passer-by, whom I recognised the other day in the person of
-            your kinsman; the doctor and the child’s family joined him; there were moments when I feared for my life; and at
-            last, in order to pacify their too just resentment, Edward Hyde had to bring them to the door, and pay them in a
-            cheque drawn in the name of Henry Jekyll. But this danger was easily eliminated from the future, by opening an
-            account at another bank in the name of Edward Hyde himself; and when, by sloping my own hand backward, I had
-            supplied my double with a signature, I thought I sat beyond the reach of fate.</p>
-        <p>The pleasures which I made haste to seek in my disguise were, as I have said, undignified; I would scarce use a
-            harder term. But in the hands of Edward Hyde, they soon began to turn toward the monstrous. When I would come back
-            from these excursions, I was often plunged into a kind of wonder at my vicarious depravity. This familiar that I
-            called out of my own soul, and sent forth alone to do his good pleasure, was a being inherently malign and
-            villainous; his every act and thought centered on self; drinking pleasure with bestial avidity from any degree of
-            torture to another; relentless like a man of stone. Henry Jekyll stood at times aghast before the acts of Edward
-            Hyde; but the situation was apart from ordinary laws, and insidiously relaxed the grasp of conscience. It was Hyde,
-            after all, and Hyde alone, that was guilty. Jekyll was no worse; he woke again to his good qualities seemingly
-            unimpaired; he would even make haste, where it was possible, to undo the evil done by Hyde. And thus his conscience
-            slumbered.</p>
-        <p>Some two months before the murder of Sir Danvers, I had been out for one of my adventures, had returned at a late
-            hour, and woke the next day in bed with somewhat odd sensations. It was in vain I looked about me; in vain I saw the
-            decent furniture and tall proportions of my room in the square; in vain that I recognised the pattern of the bed
-            curtains and the design of the mahogany frame; something still kept insisting that I was not where I was, that I had
-            not wakened where I seemed to be, but in the little room in Soho where I was accustomed to sleep in the body of
-            Edward Hyde. I smiled to myself, and in my psychological way, began lazily to inquire into the elements of this
-            illusion, occasionally, even as I did so, dropping back into a comfortable morning doze. I was still so engaged
-            when, in one of my more wakeful moments, my eyes fell upon my hand. Now the hand of Henry Jekyll (as you have often
-            remarked) was professional in shape and size: it was large, firm, white and comely. But the hand which I now saw,
-            clearly enough, in the yellow light of a mid-London morning, lying half shut on the bedclothes, was lean, corder,
-            knuckly, of a dusky pallor and thickly shaded with a swart growth of hair. It was the hand of Edward Hyde.</p>
+        <p>My research topic is based on the image hover effects in CSS. We have all seen the work of image hover effects on many websites we have visited. It adds some class or what not to the website and makes some things easier for the programmer and the visitor. The effect keeps websites interactive in modern websites to keep them engaged and encouraged. “Including interactive elements on a website also makes the user experience more intuitive because they hint at what the user can do. Image hover effects create an opportunity to add interactivity to elements on a website without slowing it down. Hover effects are elegant, they don’t clutter designs, and websites run smoothly no matter how many you add.” (Timotic) </p>
+
+        <p> As you can see from my example below. I was able to add an Image Hover Effect known as a text overlay. Effects like this makes websites more intriguing to the human fickle mind. This effect was fun to do, I've done a couple of mistakes but with a little bit of fixing, we got this amatuer masterpiece going on. "Hover effects can significantly enhance website interactivity and user engagement when implemented thoughtfully. While custom CSS offers flexibility for those with coding expertise, plugins provide an accessible alternative for users seeking quick and easy implementation."</p>
+
+        
+       
 
     </div>
       
  </article>
 
+ <div class="wrapper">
+    <div class="image">
+        <img src="img/ceruledge.jpg">
+        <div class="content">
+            <h1>Ceruledge</h1>
+            <p>Can you tell the difference</p>
+        </div>
+    </div>
+</div>
+
  <section id="video">
 
     <h2>A Short Video</h2>
 
-    <div id="videoContainer">
-        <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/tP4ngZdsgMA?si=n0gP5uDi-D9hn0jJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-   
-    </div>
+    <iframe id="myvideo" width="560" height="315" src="https://www.youtube.com/embed/C37dzBtAbk4?si=I8isUZVnoer9Np6r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
  </section>
  
@@ -219,7 +212,7 @@
 </main> 
     <footer>
     &copy; 2024 Jamil Segura
-    </footer>
+    <a href="https://github.com/RVCC-IDMX/about-me-jamilsegura"> Check Out My github</a>
 
 
 </body>
